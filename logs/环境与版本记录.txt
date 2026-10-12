@@ -1,0 +1,66 @@
+==================================================================
+ LGR5 结合位点论证 · 环境与版本记录
+ 生成时间: 2026-09-28 10:52:34 CST
+==================================================================
+
+【1】操作系统
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+Linux 6.18.33.2-microsoft-standard-WSL2 x86_64
+内核: Linux version 6.18.33.2-microsoft-standard-WSL2 (root@f1bbfb02316b) (gcc (GCC) 13.2.0, GNU ld (GNU Binutils) 2.41) #1 SM
+运行方式: WSL2 (Windows 11 宿主)
+
+【2】CPU / 内存
+逻辑核心数: 14
+Intel(R) Core(TM) Ultra 5 225H
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       1.5Gi        11Gi        81Mi       2.1Gi        13Gi
+
+【3】GPU / 驱动
+NVIDIA GeForce RTX 5060 Laptop GPU, 591.74, 8151 MiB
+| NVIDIA-SMI 590.52.01              Driver Version: 591.74         CUDA Version: 13.1     |
+
+【4】CUDA 工具链
+nvcc 不在 PATH（gnina 为预编译/源码编译产物，运行时不需要 nvcc）
+
+【5】gnina
+路径: /usr/local/bin/gnina
+gnina N/A N/A:N/A   Built Sep 11 2026.
+
+【6】Python 与关键依赖（WSL 侧，用于分析与脚本）
+Python 3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]
+rdkit 2026.03.6
+numpy 1.21.5
+scipy 未安装 (No module named 'scipy')
+
+【7】关键运行参数
+gnina 打分: CNN 模型 dense（默认）; --cnn_scoring rescore（默认）
+随机种子: --seed 42（全部轮次）
+盲对接: exhaustiveness 128 / num_modes 40 / 全蛋白盒
+位点精算: 24 A 盒 / exhaustiveness 32
+全库筛查: 24 A 盒 / exhaustiveness 8 / num_modes 9
+配体 3D: RDKit ETKDGv3 (seed 42) + MMFF
+
+【8】运行耗时（实测）
+盲对接（仅 LGR5 A 链）40 姿态: 约 18 s;  含 RSPO1 40 姿态: 约 19 s
+110 分子 × 全部位点筛查: 各位点约 2-10 分钟
+11 分子修正版重跑: 每位点约 20 s
+
+【9】结构文件来源与校验
+4KNG_full.pdb = RCSB PDB 条目 4KNG 原始下载件（human LGR5–RSPO1–RNF43, X-ray 2.50 A）
+  下载日期: 2026-09-05   来源: https://www.rcsb.org/structure/4KNG
+  链: A/B = LGR5(GPR49) ; M/P = RSPO1 ; E/F = RNF43 ; 含 NAG / NI / HOH
+  SHA256: D1EC73D0E5AFCCA266098A0284544EBFE1DDCAA915B36E4110558D4FEFD85E41
+  用途: analyze_sites.py / merge_sites.py / site_biology.py 需要完整复合物坐标（RSPO1 界面、
+        RNF43 与晶体邻近分子的距离判定）；此前该文件位于本项目之外的临时目录，已收入 data/ 以消除外部依赖。
+  说明: 本项目实际对接用的受体是 data/receptor_apo_LGR5.pdb（仅 A 链，已去水/去糖/去离子/altLoc 去重）。注：文件名为历史惯例；该构象取自 4KNG（LGR5–RSPO1–RNF43 三元复合物），并非游离态结构。
+
+【10】关于 gnina 版本号（如实说明）
+gnina --version 返回 "gnina N/A N/A:N/A   Built Sep 11 2026."，未内嵌 git tag 或版本号。
+可确证的信息: 源码编译版，构建日期 2026-09-11，为 sm_120 (Blackwell) 架构编译，安装于 /usr/local/bin/gnina。
+编译时的依赖（libtorch 2.7.0+cu128 / CUDA 12.8）记录见 gnina_project/src/collect_env.sh 的输出。
+
+【11】Windows 侧（仅用于生成 Excel 与文档）
+Python 3.11 + openpyxl 3.1.5（make_excel_screen.py）
+计算全部在 WSL 侧完成；Windows 侧不参与对接或数据分析。

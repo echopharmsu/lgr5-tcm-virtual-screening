@@ -1,0 +1,4 @@
+gnina · 第三方软件版本标识
+  来源    https://github.com/gnina/gnina/archive/refs/heads/master.zip（master 分支快照）
+  版本    commit 6fe1ce2bb9c35c8067de9f49bb9169857dfbad70（2026-06-29；源码包不含 .git，故 --version 显示 N/A）
+  构建    2026-09-11 · CUDA 12.8 · sm_120（Blackwell）

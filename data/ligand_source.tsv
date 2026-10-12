@@ -1,0 +1,110 @@
+id	name_cn	name_en	herb	smiles	vina_orig	score_total	rank_orig
+001	刺芒柄花素	Formononetin	黄芪	COc1ccc(-c2coc3cc(O)ccc3c2=O)cc1	-7.3	77.33	9
+002	毛蕊异黄酮	Calycosin	黄芪	COc1ccc(-c2coc3cc(O)ccc3c2=O)cc1O	-7.4	77.59	6
+003	毛蕊异黄酮苷	Calycosin-7-glucoside	黄芪	COc1ccc(-c2coc3cc(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)ccc3c2=O)cc1O	-8.7	74.37	14
+004	芒柄花苷	Ononin	黄芪	COc1ccc(-c2coc3cc(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)ccc3c2=O)cc1	-8.7	80.46	1
+005	黄芪皂苷I	Astragaloside I	黄芪	CC(=O)O[C@@H]1[C@@H](OC(C)=O)[C@H](O[C@H]2CC[C@]34C[C@]35CC[C@]3(C)[C@@H]([C@@]6(C)CC[C@@H](C(C)(C)O)O6)[C@@H](O)C[C@@]3(C)[C@@H]5C[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H]4C2(C)C)OC[C@H]1O	-10	None	None
+006	黄芪皂苷II	Astragaloside II	黄芪	CC(=O)O[C@H]1[C@H](O[C@H]2CC[C@]34C[C@]35CC[C@]3(C)[C@@H]([C@@]6(C)CC[C@@H](C(C)(C)O)O6)[C@@H](O)C[C@@]3(C)[C@@H]5C[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H]4C2(C)C)OC[C@@H](O)[C@@H]1O	-10.6	54.02	78
+007	黄芪皂苷III	Astragaloside III	黄芪	CC(C)(O)[C@@H]1CC[C@](C)([C@H]2[C@@H](O)C[C@@]3(C)[C@@H]4C[C@H](O)[C@H]5C(C)(C)[C@@H](O[C@@H]6OC[C@@H](O)[C@H](O)[C@H]6O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)CC[C@@]56C[C@@]46CC[C@]23C)O1	-11.1	56	69
+008	黄芪甲苷	Astragaloside IV	黄芪	CC(C)(O)[C@@H]1CC[C@](C)([C@H]2[C@@H](O)C[C@@]3(C)[C@@H]4C[C@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)[C@H]5C(C)(C)[C@@H](O[C@@H]6OC[C@@H](O)[C@H](O)[C@H]6O)CC[C@@]56C[C@@]46CC[C@]23C)O1	-11.2	56.45	68
+009	环黄芪醇	Cycloastragenol	黄芪	CC(C)(O)[C@@H]1CC[C@](C)([C@H]2[C@@H](O)C[C@@]3(C)[C@@H]4C[C@H](O)[C@H]5C(C)(C)[C@@H](O)CC[C@@]56C[C@@]46CC[C@]23C)O1	-6.7	67.93	43
+010	异鼠李素	Isorhamnetin	黄芪	COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2O)ccc1O	-8.1	80.07	3
+011	山奈酚	Kaempferol	黄芪	O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12	-8	79.81	4
+012	槲皮素	Quercetin	黄芪	O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12	-8.1	70.1	33
+013	大豆苷元	Daidzein	黄芪	O=c1c(-c2ccc(O)cc2)coc2cc(O)ccc12	-7.3	77.35	8
+014	芦丁	Rutin	黄芪	C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O	-7.8	41.25	92
+015	茯苓酸	Pachymic acid	茯苓	C=C(CC[C@@H](C(=O)O)[C@H]1[C@H](O)C[C@@]2(C)C3=C(CC[C@]12C)[C@@]1(C)CC[C@H](OC(C)=O)C(C)(C)[C@@H]1CC3)C(C)C	-7.3	48.33	89
+016	去氢茯苓酸	Dehydropachymic acid	茯苓	CC(C)C(=C)CC[C@H]([C@H]1[C@@H](C[C@@]2([C@@]1(CC=C3C2=CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)OC(=O)C)C)C)C)O)C(=O)O	-7.5	48.96	87
+017	土莫酸	Tumulosic acid	茯苓	C=C(CC[C@@H](C(=O)O)[C@H]1[C@H](O)C[C@@]2(C)C3=C(CC[C@]12C)[C@@]1(C)CC[C@H](O)C(C)(C)[C@@H]1CC3)C(C)C	-6.9	52.75	84
+018	去氢土莫酸	Dehydrotumulosic acid	茯苓	C=C(CC[C@@H](C(=O)O)[C@H]1[C@H](O)C[C@@]2(C)C3=CC[C@H]4C(C)(C)[C@@H](O)CC[C@]4(C)C3=CC[C@]12C)C(C)C	-7	52.96	82
+019	齿孔酸	Eburicoic acid	茯苓	C=C(CC[C@@H](C(=O)O)[C@H]1CC[C@@]2(C)C3=C(CC[C@]12C)[C@@]1(C)CC[C@H](O)C(C)(C)[C@@H]1CC3)C(C)C	-7.1	53.91	79
+020	茯苓新酸A	Poricoic acid A	茯苓	C=C(CC[C@@H](C(=O)O)[C@H]1[C@H](O)C[C@@]2(C)C3=CC[C@@H](C(=C)C)[C@](C)(CCC(=O)O)C3=CC[C@]12C)C(C)C	-7.2	53.84	80
+021	茯苓新酸B	Poricoic acid B	茯苓	C=C(C)[C@@H]1CC=C2C(=CC[C@]3(C)[C@@H]([C@@H](CCC=C(C)C)C(=O)O)[C@H](O)C[C@@]23C)[C@@]1(C)CCC(=O)O	-7.1	55.55	70
+022	多孔菌酸C	Polyporenic acid C	茯苓	C=C(CC[C@@H](C(=O)O)[C@H]1[C@H](O)C[C@@]2(C)C3=CC[C@H]4C(C)(C)C(=O)CC[C@]4(C)C3=CC[C@]12C)C(C)C	-7.4	54.76	73
+023	栓菌酸	Trametenolic acid	茯苓	CC(C)=CCC[C@@H](C(=O)O)[C@H]1CC[C@@]2(C)C3=C(CC[C@]12C)[C@@]1(C)CC[C@H](O)C(C)(C)[C@@H]1CC3	-7.2	54.46	74
+024	麦角甾醇	Ergosterol	茯苓	CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@H]2C3=CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C	-7.6	55.37	71
+025	过氧化麦角甾醇	Ergosterol peroxide	茯苓	CC(C)[C@@H](C)/C=C/[C@@H](C)[C@H]1CC[C@@H]2[C@]1(C)CC[C@H]1[C@]23C=C[C@]2(C[C@@H](O)CC[C@]12C)OO3	-8.1	59.24	63
+026	白术内酯I	Atractylenolide I	炒白术	C=C1CCC[C@]2(C)C=C3OC(=O)C(C)=C3C[C@@H]12	-7.1	71.9	24
+027	白术内酯II	Atractylenolide II	炒白术	C=C1CCC[C@]2(C)C[C@@H]3OC(=O)C(C)=C3C[C@@H]12	-6.8	70.95	26
+028	白术内酯III	Atractylenolide III	炒白术	C=C1CCC[C@]2(C)C[C@]3(O)OC(=O)C(C)=C3C[C@@H]12	-7.3	72.77	20
+029	双白术内酯	Biatractylolide	炒白术	C=C1CCC[C@@]2(C)C[C@@]3([C@@]45C[C@]6(C)CCCC(=C)[C@H]6CC4=C(C)C(=O)O5)OC(=O)C(C)=C3C[C@H]12	-10	70.81	28
+030	苍术素	Atractylodin	炒白术	C/C=C/C#CC#C/C=C/c1ccco1	-5.3	65.72	52
+031	苍术素醇	Atractylodinol	炒白术	OC/C=C/C#CC#C/C=C/c1ccco1	-5.5	66.52	48
+032	β-桉叶醇	beta-Eudesmol	炒白术	C=C1CCC[C@]2(C)CC[C@@H](C(C)(C)O)C[C@@H]12	-7.4	74.12	15
+033	苍术酮	Atractylone	炒白术	C=C1CCC[C@]2(C)Cc3occ(C)c3C[C@@H]12	-7	71.83	25
+034	茅术醇	Hinesol	炒白术	CC1=CCC[C@H](C)[C@@]12CC[C@@H](C(C)(C)O)C2	-6.7	69.95	34
+035	榄香醇	Elemol	炒白术	C=C[C@]1(C)CC[C@@H](C(C)(C)O)C[C@H]1C(=C)C	-6.6	70.7	29
+036	薯蓣皂苷元	Diosgenin	山药	C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C	-7.9	64.17	58
+037	薯蓣皂苷	Dioscin	山药	C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C	-10.2	None	None
+038	原薯蓣皂苷	Protodioscin	山药	C[C@H](CC[C@@]1(O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C)CO[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O	-9.5	None	None
+039	甲基原薯蓣皂苷	Methyl protodioscin	山药	CO[C@]1(CC[C@@H](C)CO[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)O[C@H]2C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O[C@@H]7O[C@@H](C)[C@H](O)[C@@H](O)[C@H]7O)[C@H](O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]2[C@@H]1C	-7.8	None	None
+040	纤细薯蓣皂苷	Gracillin	山药	C[C@@H]1CC[C@@]2(OC1)O[C@H]1C[C@H]3[C@@H]4CC=C5C[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H]6O[C@@H]6O[C@@H](C)[C@H](O)[C@@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C	-8.9	None	None
+041	尿囊素	Allantoin	山药	[C@H]1(C(=O)NC(=O)N1)NC(=O)N	-6	65.01	55
+042	腺苷	Adenosine	山药	Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O	None	None	None
+043	多巴胺	Dopamine	山药	NCCc1ccc(O)c(O)c1	-6.9	69.71	35
+044	山药素I	Batatasin I	山药	COc1cc(OC)c2c(ccc3cc(OC)c(O)cc32)c1	-7.3	73.26	18
+045	绿原酸	Chlorogenic acid	山药	O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1C[C@](O)(C(=O)O)C[C@@H](O)[C@H]1O	-7.7	54.45	75
+046	左旋多巴（L-多巴）	Levodopa	炒白扁豆	N[C@@H](Cc1ccc(O)c(O)c1)C(=O)O	None	None	None
+047	儿茶素	Catechin	炒白扁豆	Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@@H](O)C2	-8.2	70.22	32
+048	表儿茶素	Epicatechin	炒白扁豆	Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@H](O)C2	-8	69.41	38
+049	没食子酸	Gallic acid	炒白扁豆	O=C(O)c1cc(O)c(O)c(O)c1	-6.2	66.66	47
+050	咖啡酸	Caffeic acid	炒白扁豆	O=C(O)/C=C/c1ccc(O)c(O)c1	-6.4	63.81	59
+051	原儿茶酸	Protocatechuic acid	炒白扁豆	O=C(O)c1ccc(O)c(O)c1	-6.3	67.21	46
+052	对香豆酸	p-Coumaric acid	炒白扁豆	O=C(O)/C=C/c1ccc(O)cc1	-5.8	69.6	37
+053	阿魏酸	Ferulic acid	炒白扁豆	COc1cc(/C=C/C(=O)O)ccc1O	-6.2	70.87	27
+054	β-谷甾醇	beta-Sitosterol	炒白扁豆	CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C)C(C)C	-7.1	53.64	81
+055	豆甾醇	Stigmasterol	炒白扁豆	CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C)C(C)C	-8.4	59.02	65
+056	菜油甾醇	Campesterol	炒白扁豆	CC(C)[C@H](C)CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O)CC[C@]4(C)[C@H]3CC[C@]12C	-7.2	54.21	76
+057	甲基莲心碱	Neferine	莲子	COc1ccc(C[C@@H]2c3cc(Oc4cc(C[C@@H]5c6cc(OC)c(OC)cc6CCN5C)ccc4O)c(OC)cc3CCN2C)cc1	-7.6	65.88	51
+058	莲心碱	Liensinine	莲子	COc1cc2c(cc1OC)[C@@H](Cc1ccc(O)c(Oc3cc4c(cc3OC)CCN(C)[C@@H]4Cc3ccc(O)cc3)c1)N(C)CC2	-7.2	64.41	56
+059	异莲心碱	Isoliensinine	莲子	COc1ccc(C[C@@H]2c3cc(Oc4cc(C[C@@H]5c6cc(O)c(OC)cc6CCN5C)ccc4O)c(OC)cc3CCN2C)cc1	-7.7	66.42	49
+060	莲心季铵碱	Lotusine	莲子	COc1cc2c(cc1O)CC[N+](C)(C)[C@@H]2Cc1ccc(O)cc1	-7.3	74.03	16
+061	荷叶碱	Nuciferine	莲子	COc1cc2c3c(c1OC)-c1ccccc1C[C@H]3N(C)CC2	-7.5	75.41	12
+062	杏黄罂粟碱	Armepavine	莲子	COc1cc2c(cc1OC)[C@@H](Cc1ccc(O)cc1)N(C)CC2	-7.2	74.67	13
+063	金丝桃苷	Hyperoside	莲子	O=c1c(O[C@@H]2O[C@H](CO)[C@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12	-8.2	50.2	86
+064	异槲皮苷	Isoquercitrin	莲子	O=c1c(O[C@@H]2O[C@H]([C@H](O)CO)[C@H](O)[C@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12	-7.8	48.59	88
+065	莲子苷	Nelumboside	莲子	O=C(O)[C@H]1O[C@@H](Oc2c(-c3ccc(O)c(O)c3)oc3cc(O)cc(O)c3c2=O)[C@H](O)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O	-6.8	37.22	93
+066	胡萝卜苷	Daucosterol	莲子	CC[C@H](CC[C@@H](C)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)CC[C@]4(C)[C@H]3CC[C@]12C)C(C)C	-5.6	45.67	91
+067	薏苡素	Coixol	炒薏苡仁	COc1ccc2[nH]c(=O)oc2c1	-5.5	70.56	30
+068	薏苡仁酯	Coixenolide	炒薏苡仁	CCCCCC/C=C\CCCCCCCC(=O)O[C@H](C)[C@H](C)OC(=O)CCCCCCCCC/C=C/CCCCCC	-5	33.01	94
+069	三油酸甘油酯	Triolein	炒薏苡仁	CCCCCCCC/C=C\CCCCCCCC(=O)OCC(COC(=O)CCCCCCC/C=C\CCCCCCCC)OC(=O)CCCCCCC/C=C\CCCCCCCC	-5.4	32.1	95
+070	亚油酸	Linoleic acid	炒薏苡仁	CCCCC/C=C\C/C=C\CCCCCCCC(=O)O	-5.6	59.14	64
+071	油酸	Oleic acid	炒薏苡仁	CCCCCCCC/C=C\CCCCCCCC(=O)O	-5.4	58.36	66
+072	香草酸	Vanillic acid	炒薏苡仁	COc1cc(C(=O)O)ccc1O	-5.7	72.39	22
+073	丁香酸	Syringic acid	炒薏苡仁	COc1cc(C(=O)O)cc(OC)c1O	-5.4	72.88	19
+074	5-羟甲基糠醛	5-Hydroxymethylfurfural	炒薏苡仁	O=Cc1ccc(CO)o1	-4.5	65.61	54
+075	乙酸龙脑酯	Bornyl acetate	砂仁	CC(=O)O[C@@H]1C[C@@H]2CC[C@@]1(C)C2(C)C	-5.4	68.73	39
+076	龙脑	Borneol	砂仁	C[C@]12CC[C@H](C1(C)C)C[C@H]2O	-5.3	68.54	40
+077	樟脑	Camphor	砂仁	C[C@@]12CC[C@@H](C1(C)C)CC2=O	-5.1	67.96	42
+078	1,8-桉叶油素	1,8-Cineole	砂仁	CC12CCC(CC1)C(C)(C)O2	-5.3	68.3	41
+079	α-蒎烯	alpha-Pinene	砂仁	CC1=CC[C@@H]2C[C@H]1C2(C)C	-5.1	51.61	85
+080	β-蒎烯	beta-Pinene	砂仁	CC1([C@@H]2CCC(=C)[C@H]1C2)C	-5.2	52.82	83
+081	柠檬烯	Limonene	砂仁	CC1=CC[C@@H](CC1)C(=C)C	-5.3	59.51	62
+082	芳樟醇	Linalool	砂仁	CC(=CCC[C@](C)(C=C)O)C	-5.6	67.54	45
+083	松油烯-4-醇	Terpinen-4-ol	砂仁	CC1=CC[C@](CC1)(C(C)C)O	-5.4	66.13	50
+084	α-松油醇	alpha-Terpineol	砂仁	CC1=CC[C@@H](CC1)C(C)(C)O	-5.8	67.79	44
+085	月桂烯	Myrcene	砂仁	C=CC(=C)CCC=C(C)C	-4.8	55.17	72
+086	香叶醇	Geraniol	砂仁	CC(C)=CCC/C(C)=C/CO	-5.1	65.67	53
+087	桔梗皂苷D	Platycodin D	桔梗	C[C@@H]1O[C@@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O[C@@H]1OC[C@@H](O)[C@H](O[C@@H]2OC[C@](O)(CO)[C@H]2O)[C@H]1O	-10.7	None	None
+088	桔梗皂苷D2	Platycodin D2	桔梗	C[C@@H]1O[C@@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8O[C@H](CO)[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O[C@@H]1OC[C@@H](O)[C@H](O[C@@H]2OC[C@](O)(CO)[C@H]2O)[C@H]1O	-10	None	None
+090	桔梗皂苷A	Platycodin A	桔梗	CC(=O)O[C@H]1[C@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)O[C@@H](C)[C@H](O[C@@H]2OC[C@@H](O)[C@H](O[C@@H]3OC[C@](O)(CO)[C@H]3O)[C@H]2O)[C@H]1O	-8.4	None	None
+091	桔梗皂苷C	Platycodin C	桔梗	CC(=O)O[C@H]1[C@@H](O)[C@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)O[C@@H](C)[C@@H]1O[C@@H]1OC[C@@H](O)[C@H](O[C@@H]2OC[C@](O)(CO)[C@H]2O)[C@H]1O	-8.3	None	None
+092	去芹糖桔梗皂苷D	Deapioplatycodin D	桔梗	C[C@@H]1O[C@@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O	-10.7	None	None
+093	桔梗皂苷E	Platycoside E	桔梗	C[C@@H]1O[C@@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO[C@@H]8O[C@H](CO[C@@H]9O[C@H](CO)[C@@H](O)[C@H](O)[C@H]9O)[C@@H](O)[C@H](O)[C@H]8O)[C@@H](O)[C@H](O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O[C@@H]1OC[C@@H](O)[C@H](O[C@@H]2OC[C@](O)(CO)[C@H]2O)[C@H]1O	-9.6	None	None
+094	桔梗皂苷G2	Platycoside G2	桔梗	C[C@@H]1O[C@@H](O[C@H]2[C@H](OC(=O)[C@]34CCC(C)(C)C[C@H]3C3=CC[C@@H]5[C@@]6(C)C[C@H](O)[C@H](O[C@@H]7O[C@H](CO[C@@H]8O[C@H](CO[C@@H]9O[C@H](CO)[C@@H](O)[C@H](O)[C@H]9O)[C@@H](O)[C@H](O)[C@H]8O)[C@@H](O)[C@H](O)[C@H]7O)C(CO)(CO)[C@@H]6CC[C@@]5(C)[C@]3(C)C[C@H]4O)OC[C@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O	-9.1	None	None
+095	桔梗酸A	Platycogenic acid A	桔梗	CC1(C)CC[C@]2(C(=O)O)[C@H](O)C[C@]3(C)C(=CC[C@@H]4[C@@]5(C)C[C@H](O)[C@H](O)[C@](CO)(C(=O)O)[C@@H]5CC[C@]43C)[C@@H]2C1	-8.3	54.16	77
+096	木犀草素	Luteolin	桔梗	O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12	-8.1	70.34	31
+097	芹菜素	Apigenin	桔梗	O=c1cc(-c2ccc(O)cc2)oc2cc(O)cc(O)c12	-8.1	80.4	2
+098	甘草酸	Glycyrrhizic acid	甘草	CC1(C)[C@@H](O[C@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)CC[C@]2(C)[C@H]3C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@@]4(C)[C@]3(C)CC[C@@H]12	-11.9	58.29	67
+099	甘草次酸	Glycyrrhetinic acid	甘草	CC1(C)[C@@H](O)CC[C@]2(C)[C@H]3C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@@]4(C)[C@]3(C)CC[C@@H]12	-6.7	61.27	61
+100	甘草苷	Liquiritin	甘草	O=C1C[C@@H](c2ccc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc2)Oc2cc(O)ccc21	-8.2	72.66	21
+101	甘草素	Liquiritigenin	甘草	O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)ccc21	-7.4	77.59	6
+102	异甘草素	Isoliquiritigenin	甘草	O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O	-7	73.45	17
+103	光甘草定	Glabridin	甘草	CC1(C)C=Cc2c(ccc3c2OC[C@@H](c2ccc(O)cc2O)C3)O1	-8.4	78.43	5
+104	甘草查尔酮A	Licochalcone A	甘草	C=CC(C)(C)c1cc(/C=C/C(=O)c2ccc(O)cc2)c(OC)cc1O	-7.5	69.67	36
+105	甘草查尔酮B	Licochalcone B	甘草	COc1c(/C=C/C(=O)c2ccc(O)cc2)ccc(O)c1O	-7.3	64.34	57
+106	甘草酚	Glycyrol	甘草	COc1c(CC=C(C)C)c(O)cc2oc(=O)c3c4ccc(O)cc4oc3c12	-8.2	72.2	23
+107	光甘草宁	Glabranin	甘草	CC(C)=CCc1c(O)cc(O)c2c1O[C@H](c1ccccc1)CC2=O	-8.6	76.7	11
+108	新异甘草苷	Neoisoliquiritin	甘草	O=C(/C=C/c1ccc(O)cc1)c1ccc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)cc1O	-7.9	62.41	60
+109	异甘草素芹糖苷	Licuraside	甘草	O=C(/C=C/c1ccc(O)cc1)c1ccc(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2OC[C@](O)(CO)[C@H]2O)cc1O	-7.2	46.49	90
+110	光甘草酚	Glabrol	甘草	CC(C)=CCc1cc([C@@H]2CC(=O)c3ccc(O)c(CC=C(C)C)c3O2)ccc1O	-9.3	76.97	10

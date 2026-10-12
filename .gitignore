@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# 临时 / 演示产物（可由 predict.py 重新生成）
+*.tmp
+*.bak
+results/demo/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# ⚠️ 以下内容【必须】进仓库，切勿排除：
+#   results/**/*.sdf.gz   —— 981 个原始对接姿态，是复现性的核心证据
+#   results/复现_8次运行/  —— 8 次运行的对照数据
+#   logs/*.log            —— 每次运行的完整命令行与参数

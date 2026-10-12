@@ -1,0 +1,20 @@
+# LGR5 中药小分子虚拟筛选 · Python 依赖
+# 环境：Ubuntu 22.04.5 (WSL2) · Python 3.10.12
+#
+# 注意：gnina 不在 PyPI 上，需单独安装（见 README 第 2.3 节）。
+
+# ---- 核心：配体准备与立体化学 ----
+rdkit==2026.03.6
+
+# ---- 数值计算 ----
+numpy==1.21.5
+
+# ---- 配置解析（config.yaml）----
+PyYAML>=6.0
+
+# ---- 生成 results.xlsx + 读取 ADME 明细（★ 必需，不是可选）----
+# 缺 openpyxl 时：① 生不出 results.xlsx；② 读不了 results/ADME预测_109个分子.xlsx
+# ⇒ 结果表会少 5 个 ADME 列（23 列 → 18 列）。
+# 为避免把不完整的表误当交付件，make_results.py 在缺 openpyxl 时会改用
+# 带「无ADME_非交付件」标记的文件名输出，不会覆盖交付件。
+openpyxl>=3.0

@@ -1,0 +1,17 @@
+# /usr/bin/python3 /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/src/dock_prep.py /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/data/ligands /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/work/screen_U1/ligands_3d /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/work/screen_U1/ligands_3d.sdf /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/work/screen_U1/prep_report.tsv 23.55 -3.49 21.44 --stereo-policy auto --stereo-max-isomers 8
+# cwd: /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project
+
+stereo policy : auto（异构体上限 8）
+total files : 109
+3D ok       : 109  输出配体数: 109
+failed      : 0
+
+--- 立体化学小结（策略 auto）---
+检出立体歧义 : 0 个分子
+由元数据修复 : 0 ；枚举展开成 0 个分子（额外产出 0 个异构体配体）；仍任选(告警) : 0 ；被拦截 : 0
+merged file : /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/work/screen_U1/ligands_3d.sdf (109 mols)
+max span    : 35.7 A  (box must exceed this)
+pocket      : (23.550, -3.490, 21.440)
+SELF-CHECK  : 质心距口袋 最近 0.00 / 中位 0.00 / 最远 0.00 A
+SELF-CHECK  : PASS (全部 < 2 A，配体已就位)
+report      : /mnt/c/Users/echo/Desktop/gnina_project/提交包_LGR5/project/work/screen_U1/prep_report.tsv

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "如使用本项目（代码、数据或流程），请按下列信息引用。"
+title: "基于 LGR5（GPR49）靶点的中药小分子 AI 虚拟筛选（放射性肠损伤修复）"
+abstract: >-
+  面向无已知小分子口袋的 GPCR 靶点，提供一套可复现的天然产物虚拟筛选流程：
+  109 个中药小分子库、探索性全蛋白盲对接、依据三条纯几何事实定位筛选区域
+  （LRR13–16 凹面）、四道统一筛选判据，并随包提供全部原始对接姿态与
+  8 次运行的对照数据。
+authors:
+  - name: "LGR5 TCM Virtual Screening Team"
+version: "1.0.0"
+date-released: "2026-10-12"
+license: "Apache-2.0"
+keywords:
+  - molecular docking
+  - virtual screening
+  - LGR5
+  - GPR49
+  - GPCR
+  - traditional Chinese medicine
+  - reproducibility
+  - radiation-induced intestinal injury

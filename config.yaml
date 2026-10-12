@@ -1,0 +1,76 @@
+# =====================================================================
+#  提交包 LGR5 · 全部路径与参数
+#  附件5 第六条：「避免硬编码绝对路径，使用相对路径或配置文件」
+#  —— 所有脚本统一从 src/config.py 读取本文件，脚本内不出现绝对路径。
+# =====================================================================
+
+project:
+  name: LGR5(GPR49) 中药小分子虚拟筛选（gnina）
+  track: 赛道三 · 离子通道、GPCR等药靶的小分子药物虚拟筛选
+  target: 人源 LGR5 / GPR49（UniProt O75473）
+  pdb_id: 4KNG
+  recommended_molecule: "001"
+  recommended_site: U3                          # 内部键：须与 sites: 的键一致，用于查表与结构文件名
+  recommended_site_label: "LRR13–16 凹面"        # 对外显示名：写进交付表「推荐位点」列与注释头
+
+# ---- 路径（相对 project/ 根目录）----
+paths:
+  data: data
+  ligands_2d: data/ligands
+  receptor: data/receptor_apo_LGR5.pdb
+  receptor_holo: data/receptor_holo_LGR5_RSPO1.pdb
+  full_complex: data/4KNG_full.pdb
+  ligand_source: data/ligand_source.tsv
+  smiles_fixed: data/SMILES_修正版_110.txt
+  # 【非必需】统一候选位点表：本提交包**不随附**（其内容含作废的多候选位点框架）。
+  # 脚本已将 U3 质心改从 sites.U3.center 读取，缺此文件不影响主流程。
+  unified_sites: data/unified_sites.tsv
+  results: results
+  structures: results/结构文件
+  adme: results/ADME预测_109个分子.xlsx   # ADME 预测明细（编号口径，ADMET-AI 产出）；缺此文件则不追加 ADME 列
+  logs: logs
+  work: work                     # 运行中间产物（自动创建）
+
+# ---- 对接参数（附件5 第三条：第三方软件的调用参数须可溯源）----
+docking:
+  software: gnina
+  software_source: https://github.com/gnina/gnina/archive/refs/heads/master.zip
+  software_commit: 6fe1ce2bb9c35c8067de9f49bb9169857dfbad70
+  software_build: "2026-09-11, CUDA 12.8, sm_120 (Blackwell)"
+  cnn_model: dense              # gnina 内置 CNN，--cnn_scoring rescore（默认）
+  box_size: 24                  # Å，立方盒
+  exhaustiveness: 8
+  num_modes: 9
+  seed: 42                      # 附件5 第六条：固定随机种子
+  cpu: 0                        # 0 = 使用全部核心
+
+# ---- 候选区域（LRR13–16 凹面；历史键名 U3，详见 results/报告_U3结合位点论证.md）----
+sites:
+  U1:
+    center: [23.55, -3.49, 21.44]
+    role: "LRR9-11 凹面（CNNscore 最高，但排他性弱）"
+  U3:
+    center: [25.17, -17.39, 41.21]
+    role: "LRR13-16 凹面，膜近端 7.9 Å（综合最合理，主推区域）"
+  U10:
+    center: [29.97, -15.32, 62.40]
+    role: "C 端 cap/stalk（存疑区域：紧邻 53 残基未建模无序环 484-536）"
+
+# ---- 四道过滤（判定闸门）----
+filters:
+  min_contact: 2.5              # 最近受体接触 ≥ 2.5 Å（排除穿透）
+  min_cnn: 0.60                 # CNNscore ≥ 0.60
+  site_cut: 6.0                 # 距位点中心 ≤ 6.0 Å
+  max_affinity: 0.0             # affinity < 0
+
+# ---- 配体 3D 化与立体化学闸门 ----
+ligand_prep:
+  seed: 42
+  stereo_policy: auto           # auto|fix|enumerate|fail|warn|asis（见 src/stereo_gate.py）
+  stereo_max_isomers: 8
+
+# ---- 演示案例（附件5 第一条：小规模可运行示例）----
+demo:
+  n_ligands: 5                  # 从库中取前 N 个分子
+  sites: [U3]                   # 只跑主推位点
+  exhaustiveness: 4             # 演示用更快的设置
