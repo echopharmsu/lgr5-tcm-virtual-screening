@@ -1,5 +1,7 @@
 # LGR5(GPR49) 中药小分子虚拟筛选 · gnina
 
+> 🚀 **只想先跑通？看 [`QUICKSTART.md`](QUICKSTART.md)（5 分钟）**
+>
 > **在线仓库（公开）**：<https://github.com/echopharmsu/lgr5-tcm-virtual-screening>
 
 > **赛道**：赛道三 · 离子通道、GPCR等药靶的小分子药物虚拟筛选
