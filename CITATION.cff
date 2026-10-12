@@ -11,6 +11,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-10-12"
 license: "Apache-2.0"
+repository-code: "https://github.com/echopharmsu/lgr5-tcm-virtual-screening"
 keywords:
   - molecular docking
   - virtual screening

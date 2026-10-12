@@ -1,5 +1,7 @@
 # LGR5(GPR49) 中药小分子虚拟筛选 · gnina
 
+> **在线仓库（公开）**：<https://github.com/echopharmsu/lgr5-tcm-virtual-screening>
+
 > **赛道**：赛道三 · 离子通道、GPCR等药靶的小分子药物虚拟筛选
 > **靶点**：人源 **LGR5 / GPR49**（UniProt **O75473**），实验结构 RCSB PDB **4KNG**（X-ray 2.50 Å）
 > **分子库**：10 味中药、**109 个**天然产物单体
@@ -365,4 +367,5 @@ python3 predict.py --report-only   # 用已附带的结果重算，核对与 res
 - **版本记录**：见 **[`CHANGELOG.md`](CHANGELOG.md)**（按 Keep a Changelog 组织，
   版本号沿用交付日期标签；首个正式版本为 `v1.0`）。
 - **版本管理**：本仓库使用 git 管理，`v1.0` 为区赛交付标签。
+- **在线仓库**：<https://github.com/echopharmsu/lgr5-tcm-virtual-screening>（公开，含完整 git 历史与 `v1.0` 标签）。
 - **许可**：Apache-2.0（见 [`LICENSE`](LICENSE)）；第三方软件与数据许可见 §7.2。

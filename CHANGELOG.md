@@ -13,6 +13,7 @@
 
 ### 变更
 - `README.md` 增补「引用方式与版本记录」小节（§7.3）
+  - 顶部与 §7.3 补入**在线仓库地址** <https://github.com/echopharmsu/lgr5-tcm-virtual-screening>
 
 ## [2026-10-11] - 2026-10-11
 
@@ -33,3 +34,8 @@
 - 四道统一筛选判据（最近接触 ≥2.5 Å · 结合能 <0 · CNNscore ≥0.60 · 距区域中心 ≤6 Å）
 - `predict.py` 主运行入口（含 `--demo` 演示模式）
 - Apache-2.0 许可与第三方软件/数据许可表
+
+## [公开] - 2026-10-12
+
+### 新增
+- **首次公开发布**：仓库 <https://github.com/echopharmsu/lgr5-tcm-virtual-screening>（Public · Apache-2.0 · 含 `v1.0` 标签）
